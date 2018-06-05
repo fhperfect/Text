@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>HomeWork</title>
+	<link rel="stylesheet" href="css\style.css">
+</head>
+<style>*{
+    margin:0;
+    padding:0;
+    font-size:14px;
+    font-style:Microsoft YaHei UI;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+header{
+    background: #2e2e2e;
+}
+.container{
+    position: relative;
+    height:70px;
+    width:1200px;
+    margin:0 auto;
+}
+.container>a:hover{
+    cursor:pointer;
+}
+.container>img{
+    float:left;
+    margin-top:15px;
+}
+.container>nav{
+    float:right;
+    line-height: 70px;
+}
+.container>nav>a{
+    color:white;
+    margin-left:20px;
+}
+.container>nav:hover{
+    background:red;
+}
+.container>nav>a:hover{
+    color:purple;
+}
+.banner{
+    position:relative;
+    
+}
+.banner>img{
+    width:100%;
+    margin-top:0px;
+}
+.banner>.ban{
+    position: absolute;
+    top:270px;
+    width:1200px;
+    margin:0 auto;
+    color: #ffffff;
+}
+.banner>.ban>h1{
+    font-size:48px;
+    text-align:center;
+}
+.banner>.ban>p{
+    text-align:center;
+}
+
+.Portfolio{
+    height:200px;
+    margin:0 auto;
+}
+.Portfolio>h1{
+    font-size:48px;
+    color:#f46208;
+    text-align:center;
+    margin-top:0px;
+    margin-bottom:30px;
+}
+.Portfolio>p{
+    width:700px;
+    text-align:center;
+    margin:0 auto;
+}
+.Portfolio>nav{
+    width:430px;
+    height:70px;
+    margin:37px auto;
+}
+.Portfolio>nav>ul>li{
+    color:#f46208;
+    border:1px solid #f46208;
+    display:block;
+    float:left;
+    margin-left:17px;
+    padding:7px;
+}
+img{
+    margin-top:27px;
+}
+.Stats{
+    width:700px;
+    height:100px;
+    margin:0 auto;
+    margin-top:50px;
+}
+.Stats>h1{
+    font-size:48px;
+    color:#f46208;
+    text-align:center;
+    margin-top:0px;
+    margin-bottom:23px;
+}
+.Stats>p{
+    margin:0 auto;
+    text-align:center;
+    margin-bottom:30px;
+}
+.tag{
+    width:1040px;
+    margin:0 auto;
+    margin-top:30px;
+    margin-bottom:50px;
+}
+.tag>dl{
+    float:left;
+    margin-left:170px;
+}
+.tag>dl>dt{
+    text-align: center;
+}
+.tag>dl>dd{
+    text-align: center;
+}
+.Team{
+    margin:0 auto;
+    margin-top:170px;
+    height:600px;
+    background:black;
+}
+.Team>h1{
+    font-size:48px;
+    color:#f46208;
+    text-align:center;
+    margin-top:57px;
+    margin-bottom:23px;
+}
+.Team>p{
+    width:690px;
+    margin:0 auto;
+    text-align:center;
+    margin-bottom:30px;
+    color:white;
+}
+.Team>.t{
+    width:810px;
+    margin:0 auto;
+}
+.Team>.t>dl{
+    float:left;
+
+}
+.Team>.t>dl>img{
+    width:230px;
+}
+.Team>.t>dl>dt{
+    color:white;
+    text-align:center;
+}
+.Team>.t>dl>dd{
+    display:block;
+    width:270px;
+    margin:0 auto;
+    color:white;
+    text-align:center;
+}
+.Contact{
+    width:720px;
+    height:630px;
+    margin:0 auto;
+    margin-top:50px;
+}
+.Contact>h1{
+    font-size:48px;
+    color:#f46208;
+    text-align:center;
+    margin-top:30px;
+    margin-bottom:23px;
+}
+.Contact>p{
+    margin:0 auto;
+    text-align:center;
+    margin-bottom:37px;
+}
+.t1{
+    float: left;
+    height:23px;
+    width:350px;    
+}
+.t2{
+    float: right;
+    height:23px;
+    width:350px;
+}
+.t3{
+    margin-top:10px;
+    width:720px;
+    height:300px;
+}
+.t4{
+    display:block;
+    height:37px;
+    width:170px;
+    margin:0 auto;
+    background:#f46208;
+    color:white;
+    padding:3px 3px;
+    border:4px solid #f46208;
+    margin-top:20px;
+}
+footer{
+    height:70px;
+    background:black;
+}
+footer>.foo{
+    margin:0 auto;
+}
+footer>.foo>p{
+    line-height: 70px;
+    text-align:center;
+    color:white;
+}</style>
+<body>
+    <header>
+         <div class="container">
+         	<a href="#"><img src="img\logo.jpg"></a>
+         	<nav>
+         		<a href="#">APP</a>
+         		<a href="#">官方旗舰店</a>
+         		<a href="#">资源下载</a>
+         		<a href="#">登记注册</a>
+         	</nav>
+         </div>
+    </header>
+    <div class="banner">
+        <div class="ban">
+        	<h1>Welcome to sparke English</h1>
+        	<p>愿景：做中国英语教育的“苹果”   使命：专注简化中国人的英语学习，聚力改变中国英语教育</p>
+        </div>
+        <img src="C:\picture/123456.jpg">
+    </div>
+    <div class="Portfolio">
+        <h1>Part</h1>
+       
+    	
+    	<nav>
+    		<ul>
+    			<li>精品课程</li>
+    			<li>直播课程</li>
+    			<li>图书配套</li>
+    			<li>全部课程</li>
+    			
+    		</ul>
+    	</nav>
+
+    </div>
+        <img src="img\portfolio-nav-img.jpg">
+    <div class="Stats">
+    	<h1>Sparke English</h1>
+    	<p>专业  让学习更简单</p>
+    </div>
+    <div class="tag">
+        <dl>
+    		<img src="img\stats1.jpg">
+    		
+    		<dt>英语四六级</dt>
+    	</dl>
+    	<dl>
+    		<img src="img\stats2.jpg">
+    		<dt>考研英语</dt>
+    		
+    	</dl>
+    	<dl>
+    		<img src="img\stats3.jpg">
+    		<dt>高中英语</dt>
+    	
+    	</dl>
+    	<dl>
+    		<img src="img\stats4.jpg">
+    		<dt>英语专业</dt>
+    		
+    	</dl>
+    </div>
+
+    <div class="Team">
+    		<h1>Team</h1>
+    		
+    		<div class="t">
+    		<dl>
+    			<img src="img\team1.jpg">
+    			<dt>Alice</dt>
+    			<dd>前新东方国内听力核心主讲，听力方法："天龙八步"</dd>
+    		</dl>
+    		<dl>
+    			<img src="img\team2.jpg">
+    			<dt>Tom</dt>
+    			<dd>前新东方四六级阅读主讲，阅读方法"逻辑保8法"</dd>
+    		</dl>
+    		<dl>
+    			<img src="img\team3.jpg">
+    			<dt>Salary</dt>
+    			<dd>校园人称：多看"菜菜一眼"，少记几个单词 ，背词方法：词根理解法</dd>
+    		</dl>
+    		</div>
+    </div>
+   
+  
+    <footer>
+        <div class="foo">
+            <p>Copyright c 2016.Company name</p>
+        </div>
+    </footer>
+</body>
+</html>
